@@ -3,21 +3,27 @@
 This layout is for a DZ60 with a 2U left shift, 1U right shift and an arrow cluster in
 the bottom right.
 
-It is based off stephengrier's layout adding support for Home/End/PgUp/PgDn using Fn+arrows
-as used on macOS and Microsoft Surface. It has Insert instead of Fn near the arrow cluster
-and other smaller tweaks:
-- CapsLock is the only Fn key (CapsLock by itself is not available)
+It is based on stephengrier's layout adding support for Home/End/PgUp/PgDn using Fn+arrows
+as seen on MacBooks, Microsoft Surface and a number of other laptops, plus Backspace/Del
+related tweaks. It is aimed at Windows/Linux users (speaking of Alt and Win keys position).
+
+- CapsLock is Fn
+- Fn is also in place of Menu (RGui, next to RAlt) because pressing Caps+1/2 is inconvenient
 - Del is available as Fn+Backspace
 - Ctrl+Del is available as Ctrl+Backspace (e.g. deleting word to the right of the cursor)
 - Shift+Del is available as Shift+Backspace (e.g. permanently deleting file or e-mail)
+- Ins is Fn+Del
 - PgUp = Fn+Up
 - PgDn = Fn+Down
 - Home = Fn+Left
 - End = Fn+Right
 - Tilde = Shift+Esc 
 - Backtick = Fn+Esc
+- F2 = Fn+2 or Fn+Enter (for easier entering into Excel or Google Sheets cells)
 - Underglow toggle and mode selection are available as Fn+Q and Fn+W
 - Reset (bootloader mode) = Fn+B
+
+![Image of my keyboard](https://i.imgur.com/WIE4xh4.jpg)
 
 ### 0 Qwerty
 ```
@@ -26,11 +32,11 @@ and other smaller tweaks:
 |-----------------------------------------------------------------------------------------+
 | Tab    |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |    \   |
 |-----------------------------------------------------------------------------------------+
-|   Fn    |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |    Enter    |
+| Fn      |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |    Enter    |
 |-----------------------------------------------------------------------------------------+
 | Shift     |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  | RSh |  U  | Ins |
 |-----------------------------------------------------------------------------------------+
-| Ctrl |  Win  |  Alt  |              Space                | Alt | Menu |  L  |  D  |  R  |
+| Ctrl |  Win  |  Alt  |              Space                | Alt |  Fn  |  L  |  D  |  R  |
 `-----------------------------------------------------------------------------------------'
 ```
 
